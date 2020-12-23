@@ -1,3 +1,4 @@
+№!/bin/bash
 
 from=/home/user
 to=/home/user/restore/

@@ -44,4 +44,5 @@ echo "$backupDir$dir$file was renamed to $file.$curDate" >> $log
 fi
 fi
 done
+
 fi

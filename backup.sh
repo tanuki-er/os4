@@ -19,7 +19,7 @@ if [ -z "$dir" ]
 then
 dir="Backup-$curDate"
 mkdir "$backupDir$dir"
-echo "$curDate: $backupDir$dir was created" >> $log
+echo "$curDate: $backupDir$dir was created " >> $log
 for file in $(ls /home/user/source);
 do
 cp "/home/user/source/$file" "$backupDir$dir"
